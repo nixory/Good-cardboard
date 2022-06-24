@@ -449,6 +449,89 @@ body {
   border-color: #ff9d00;
 }
 
+.offer {
+  text-align: center;
+  background-image: url("../img/bgcoffer.png");
+  padding-top: 64px;
+  padding-bottom: 69px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffff;
+}
+
+.offer-title {
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 35px;
+}
+
+.offer-subtitle {
+  font-size: 26px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.offer-text {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  margin-bottom: 17px;
+}
+
+.offer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.offer-input {
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  color: rgba(55, 55, 55, 0.7);
+  padding: 8px 120px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 42px;
+  text-align: center;
+}
+
+.offer-btn {
+  padding: 21px 30px 21px 29px;
+  font-weight: 500;
+}
+
+.offer-minoffer {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+}
+
+.offer-link {
+  justify-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
 @media (max-width: 1449.98px) {
   .container {
     max-width: 1200px;
