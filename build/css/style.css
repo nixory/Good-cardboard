@@ -666,6 +666,32 @@ body {
   position: relative;
 }
 
+.klient {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 61px;
+}
+
+.klient-title {
+  color: #313131;
+  font-size: 27px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+.klient-wavyelement {
+  margin-bottom: 33px;
+}
+
+.klient-logo {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 1449.98px) {
   .container {
     max-width: 1200px;
