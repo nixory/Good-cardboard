@@ -790,6 +790,64 @@ body {
   color: #ff9d00;
 }
 
+.map-addressinfo__firstaddress-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map {
+  padding-top: 54px;
+  padding-bottom: 87px;
+  background-color: grey;
+}
+
+.map-marker {
+  margin-right: 12px;
+  -ms-flex-item-align: self-start;
+      align-self: self-start;
+}
+
+.map-addressinfo {
+  max-width: 313px;
+  background-color: #ffffff;
+  padding-top: 33px;
+  padding-bottom: 39px;
+  padding-left: 33px;
+}
+
+.map-addressinfo__firstaddress-text {
+  color: #373737;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+}
+
+.map-addressinfo__firstaddress-text__title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.map-addressinfo__firstaddress-text__title2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.map-addressinfo__firstaddress-text2 {
+  margin-top: 12px;
+}
+
 @media (max-width: 1449.98px) {
   .container {
     max-width: 1200px;
