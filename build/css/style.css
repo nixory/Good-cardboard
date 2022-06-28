@@ -153,6 +153,20 @@ body {
   outline: none;
 }
 
+.footer {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  text-align: center;
+  background-color: #1b1b1b;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 17px;
+}
+
 .infonav {
   padding-top: 15px;
   padding-bottom: 15px;
