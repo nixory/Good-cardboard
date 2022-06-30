@@ -415,6 +415,14 @@ body {
   margin-bottom: 12px;
 }
 
+.products-title::after {
+  content: "";
+  display: block;
+  margin-top: 12px;
+  height: 6px;
+  background: url(../img/wavy.svg) center no-repeat;
+}
+
 .products-wrap {
   max-width: 880px;
   display: -webkit-box;
@@ -447,7 +455,7 @@ body {
 }
 
 .products-item__btn {
-  padding: 18px 24px 16px 26px;
+  padding: 13px 22px;
   border-radius: 5px;
   border: 1px solid #373737;
   opacity: 0.5;
@@ -460,7 +468,6 @@ body {
 }
 
 .products-item__btn-o {
-  padding: 18px 28px 16px 25px;
   background-color: #ff9d00;
   opacity: 1;
   color: #ffff;
@@ -532,7 +539,7 @@ body {
 }
 
 .offer-btn {
-  padding: 21px 30px 21px 29px;
+  padding: 18px 33px;
   font-weight: 500;
 }
 
@@ -626,20 +633,36 @@ body {
   width: 93.8%;
 }
 
-.mySwiper .swiper-slide {
-  opacity: 0.4;
+.mySwiper .swiper-slide-thumb-active {
+  background-color: none;
 }
 
-.mySwiper .swiper-slide-thumb-active {
-  opacity: 1;
+.mySwiper .swiper-slide-thumb-active::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .swiper-slide-visible {
-  margin-right: 4px !important;
+  margin-right: 3.5px !important;
+}
+
+.swiper-slide-visible::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .swiper-slide-active {
-  margin-right: 4px !important;
+  margin-right: 3.5px !important;
 }
 
 .swiper-button-next {
@@ -695,7 +718,15 @@ body {
   line-height: 18px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 17px;
+  margin-bottom: 27px;
+}
+
+.klient-title::after {
+  content: "";
+  display: block;
+  margin-top: 12px;
+  height: 6px;
+  background: url(../img/wavy.svg) center no-repeat;
 }
 
 .klient-wavyelement {
@@ -704,11 +735,13 @@ body {
 
 .klient-logo {
   margin-bottom: 20px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .klient-logo:hover {
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 .reviews {
@@ -732,6 +765,14 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 12px;
+}
+
+.reviews-title::after {
+  content: "";
+  display: block;
+  margin-top: 12px;
+  height: 6px;
+  background: url(../img/wavy.svg) center no-repeat;
 }
 
 .reviews-wavyelement {
