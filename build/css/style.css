@@ -71,10 +71,10 @@ a {
 }
 
 .container {
-  max-width: 958px;
+  max-width: 956px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 8.5px;
+  padding: 0 7.5px;
 }
 
 body {
@@ -104,7 +104,7 @@ body {
 .header {
   background-color: #373737;
   padding-top: 17px;
-  padding-bottom: 1px;
+  padding-bottom: 11px;
 }
 
 .header-navbar {
@@ -114,6 +114,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -172,6 +173,10 @@ body {
   padding-bottom: 15px;
 }
 
+.infonav-logolink {
+  margin-left: 19px;
+}
+
 .infonav-wrp {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -185,7 +190,7 @@ body {
 }
 
 .infonav-wrp__nums {
-  margin-right: 27px;
+  margin-right: 26px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,13 +206,13 @@ body {
 
 .infonav-wrp__num {
   border-right: 1px solid #eeeeee;
-  padding-right: 10px;
+  padding-right: 14px;
   text-decoration: none;
   color: #373737;
 }
 
 .infonav-wrp__num2 {
-  padding-left: 10px;
+  padding-left: 13px;
   color: #373737;
 }
 
@@ -222,25 +227,25 @@ body {
 
 .infonav-wrp__btn {
   background-color: #ff9d00;
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
   font-style: normal;
   letter-spacing: normal;
   line-height: 22px;
-  padding: 13px 18px;
+  padding: 12px 27px 12px 21px;
   border-radius: 10px;
+  margin-right: -17px;
 }
 
 .wrapper {
-  position: static;
-  z-index: 2;
+  margin-left: 21px;
 }
 
 .production {
   background-image: url("../img/bgc1.png");
   padding-top: 65px;
-  padding-bottom: 78px;
+  padding-bottom: 75px;
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffff;
@@ -249,7 +254,8 @@ body {
 .production-img {
   position: absolute;
   z-index: 1;
-  left: -98px;
+  left: -76px;
+  bottom: -35px;
 }
 
 .production-title {
@@ -265,11 +271,10 @@ body {
 }
 
 .production-form {
-  padding-top: 30px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 23px;
   background: rgba(255, 255, 255, 0.2);
-  max-width: 535px;
-  padding-left: 27px;
+  padding-left: 24px;
 }
 
 .production-form__text {
@@ -297,7 +302,7 @@ body {
   font-weight: 300;
   line-height: 42px;
   margin-top: 1px;
-  margin-bottom: 12px;
+  margin-bottom: 1px;
 }
 
 .production-form__btn {
@@ -319,7 +324,7 @@ body {
   letter-spacing: normal;
   line-height: 30px;
   text-align: left;
-  margin-left: 19px;
+  margin-left: 21px;
 }
 
 .col-5 {
@@ -328,8 +333,56 @@ body {
 
 .info {
   background-color: #f4f4f4;
-  padding-top: 49px;
-  padding-bottom: 55px;
+  padding-top: 43px;
+  padding-bottom: 27px;
+}
+
+.info-textwrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.info-textwrap__item:first-child {
+  margin-right: -53px;
+  margin-left: -26px;
+}
+
+.info-cardswrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 16px;
+}
+
+.info-cardswrap__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  padding-left: 9px;
+  padding-top: 28px;
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
+  padding-bottom: 27px;
+  margin-bottom: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info-cardswrap__item-img {
+  margin-right: 10px;
+  width: 56px;
+  height: 57px;
 }
 
 .info-title {
@@ -337,6 +390,7 @@ body {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin-bottom: 3px;
 }
 
 .info-subtitle {
@@ -345,61 +399,32 @@ body {
   font-weight: 400;
   line-height: 20px;
   text-align: center;
-  margin-bottom: 54px;
-}
-
-.info-item {
-  padding: 28px 19px 29px 13px;
-  background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 30px;
-  margin-top: 37px;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.info-item__img {
-  -ms-flex-item-align: center;
-      align-self: center;
-}
-
-.info-item__text {
-  -ms-flex-item-align: center;
-      align-self: center;
-  margin-left: 11px;
-  color: #373737;
+  margin-bottom: 38px;
 }
 
 .info-item__text-title {
+  color: #373737;
+  font-family: Roboto;
   font-size: 15px;
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
-  line-height: normal;
-  margin-bottom: 10px;
+  line-height: 19px;
 }
 
 .info-item__text-subtitle {
+  color: #373737;
+  font-family: Roboto;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
   letter-spacing: normal;
   line-height: 19px;
-  text-align: justifyLeft;
-}
-
-.info-item2 {
-  margin-top: -20px;
 }
 
 .products {
   padding-top: 57px;
-  padding-bottom: 73px;
+  padding-bottom: 39px;
   text-align: center;
 }
 
@@ -477,8 +502,8 @@ body {
 .offer {
   text-align: center;
   background-image: url("../img/bgcoffer.png");
-  padding-top: 64px;
-  padding-bottom: 69px;
+  padding-top: 60px;
+  padding-bottom: 61px;
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffff;
@@ -497,7 +522,7 @@ body {
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 .offer-text {
@@ -506,7 +531,7 @@ body {
   font-style: normal;
   letter-spacing: normal;
   line-height: 30px;
-  margin-bottom: 17px;
+  margin-bottom: 14px;
 }
 
 .offer-wrap {
@@ -529,7 +554,7 @@ body {
       align-self: center;
   justify-self: center;
   color: rgba(55, 55, 55, 0.7);
-  padding: 8px 120px;
+  padding: 7px 87px;
   border-radius: 5px;
   margin-bottom: 12px;
   font-size: 14px;
@@ -539,7 +564,7 @@ body {
 }
 
 .offer-btn {
-  padding: 18px 33px;
+  padding: 17px 29px;
   font-weight: 500;
 }
 
@@ -578,6 +603,7 @@ body {
   font-style: normal;
   letter-spacing: normal;
   line-height: 22px;
+  margin-top: 20px;
 }
 
 .factory-discr {
