@@ -964,15 +964,37 @@ body {
   }
 }
 
+@media (max-width: 1151px) {
+  .header-navbar__element {
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 11px;
+  }
+
+  .infonav-logolink {
+    margin-left: -83px;
+  }
+
+  .infonav-wrp__btn {
+    padding: 9px 11px 7px 15px;
+  }
+
+  .production-img {
+    left: -9px;
+  }
+
+  .production-title {
+    font-size: 39px;
+  }
+
+  .production-subtitle {
+    font-size: 26px;
+  }
+}
+
 @media (max-width: 991.98px) {
   .container {
     max-width: 700px;
-  }
-
-  .header-navbar__element {
-    padding-right: 6px;
-    padding-left: 6px;
-    font-size: 11px;
   }
 }
 
