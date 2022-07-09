@@ -25,4 +25,9 @@ var swiper3 = new Swiper(".mySwiper3", {
   slidesPerView: 3,
   spaceBetween: 28,
 });
-;
+
+$('#modal, #bg_layer').hide();
+$( "#btn" ).click(function() {
+  $( ".modals" ).toggleClass( "modals-aktiv" ),
+  $('#modal, #bg_layer').show();
+});;
