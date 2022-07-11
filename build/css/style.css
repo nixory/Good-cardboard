@@ -331,6 +331,19 @@ body {
   z-index: 2;
 }
 
+#exit-btn {
+  position: relative;
+  left: 100%;
+  top: -15px;
+}
+
+.exitbtn {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  left: 0;
+}
+
 .modals {
   display: none;
 }
@@ -341,9 +354,101 @@ body {
   display: block;
   top: 12%;
   right: 23%;
-  width: 1000px;
-  height: 500px;
-  background-color: black;
+  width: 750px;
+  height: 344px;
+}
+
+.modals-header {
+  padding-top: 23px;
+  padding-bottom: 25px;
+  background-color: #ff9d00;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.modals-body {
+  background-image: url("../img/modalsbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 49px;
+  padding-top: 37px;
+  text-align: center;
+}
+
+.modals-body__title {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+}
+
+.modals-body__subtitle {
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 23px;
+}
+
+.modals-body__phone {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  margin-bottom: 17px;
+}
+
+.modals-body__forms {
+  margin-bottom: 9px;
+}
+
+.modals-body__forms-form {
+  color: #373737;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 42px;
+  text-align: center;
+  padding: 10px 194px 10px 14px;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+
+.modals-body__forms-btn {
+  background-color: #ff9d00;
+  padding: 20px 29px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
+  text-align: center;
+}
+
+.modals-body__minoffer {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  text-align: center;
 }
 
 #bg_layer {

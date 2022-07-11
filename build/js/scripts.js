@@ -30,4 +30,8 @@ $('#modal, #bg_layer').hide();
 $( "#btn" ).click(function() {
   $( ".modals" ).toggleClass( "modals-aktiv" ),
   $('#modal, #bg_layer').show();
+});
+$( "#exit-btn" ).click(function() {
+  $( ".modals" ).toggleClass( "modals-aktiv" ),
+  $('#modal, #bg_layer').hide();
 });;
