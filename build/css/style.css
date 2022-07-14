@@ -254,6 +254,10 @@ body {
   color: #ffff;
 }
 
+.production-brake {
+  display: none;
+}
+
 .production-img {
   position: absolute;
   z-index: 1;
@@ -329,7 +333,6 @@ body {
   line-height: 30px;
   text-align: left;
   margin-left: 21px;
-  font-size: 13px;
 }
 
 .col-5 {
@@ -1177,6 +1180,10 @@ body {
     padding: 16px 13px;
   }
 
+  .production-form__note {
+    font-size: 13px;
+  }
+
   .info-cardswrap__item {
     padding-left: 2px;
     padding-right: 0;
@@ -1395,6 +1402,83 @@ body {
 
   .infonav {
     display: none;
+  }
+
+  .wrapper {
+    margin-left: 0;
+  }
+
+  .production {
+    padding-top: 50px;
+    padding-bottom: 58px;
+  }
+
+  .production {
+    text-align: center;
+  }
+
+  .production-communicate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .production-brake {
+    display: block;
+  }
+
+  .production-second {
+    margin: 0 auto;
+  }
+
+  .production-first {
+    display: none;
+  }
+
+  .production-title {
+    color: #ff9d00;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+  }
+
+  .production-subtitle {
+    font-size: 19px;
+    margin-bottom: 16px;
+  }
+
+  .production-form {
+    background-color: transparent;
+    max-width: 100%;
+  }
+
+  .production-form__text {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .production-form__input {
+    width: 290px;
+    margin: 0 auto;
+    margin-bottom: 13px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .production-form__btn {
+    padding: 19px 29px;
+    margin-bottom: 16px;
+  }
+
+  .production-form__note {
+    text-align: center;
+    margin: 0;
   }
 }
 
