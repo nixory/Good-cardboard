@@ -94,6 +94,11 @@ body {
   }
 }
 
+@font-face {
+  font-family: "Roboto - Black";
+  src: url(/fonts/Roboto-Black.ttf);
+}
+
 .header {
   background-color: #373737;
   padding-top: 17px;
@@ -145,6 +150,10 @@ body {
 .header-navbar-button {
   display: none;
   outline: none;
+}
+
+.header-tablets {
+  display: none;
 }
 
 .footer {
@@ -1270,6 +1279,122 @@ body {
 @media screen and (max-width: 768px) {
   .container {
     max-width: 720px;
+  }
+
+  .header {
+    background-color: #f4f4f4;
+  }
+
+  .header-navbar {
+    display: none;
+  }
+
+  .header-tablets {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .header-tablets__navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .header-tablets-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 15px;
+  }
+
+  .header-tablets-logo {
+    background-color: #ff9d00;
+    width: 29px;
+    height: 29px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 2px;
+  }
+
+  .header-tablets-logo img {
+    margin: 0 auto;
+  }
+
+  .header-tablets__communicate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .header-tablets-nums {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 17px;
+    text-transform: uppercase;
+  }
+
+  .header-tablets-num {
+    color: #373737;
+  }
+
+  .header-tablets-num__strong {
+    font-family: "Roboto - Black";
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+
+  .header-tablets-num2 {
+    color: #373737;
+  }
+
+  .header-tablets__btn {
+    margin-left: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #ff9d00;
+    width: 29px;
+    height: 29px;
+    border-radius: 5px;
+  }
+
+  .header-tablets__btn img {
+    margin: 0 auto;
+  }
+
+  .infonav {
+    display: none;
   }
 }
 
