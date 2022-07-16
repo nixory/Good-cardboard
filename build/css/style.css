@@ -1180,9 +1180,9 @@ body {
   height: 420px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .production-img {
-    left: 1px;
+    left: 21px;
   }
 }
 
@@ -1201,6 +1201,12 @@ body {
 
   .rswiper-button-prev {
     left: 10px;
+  }
+}
+
+@media screen and (max-width: 1159px) {
+  .production-img {
+    left: -50px;
   }
 }
 
@@ -1803,6 +1809,15 @@ body {
 @media screen and (max-width: 480px) {
   .container {
     max-width: 480px;
+  }
+
+  .production-form__input {
+    width: 100%;
+  }
+
+  .mySwiper2 {
+    width: 290px;
+    height: 380px;
   }
 
   .klient-wrapper__item {
