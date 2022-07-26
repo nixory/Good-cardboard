@@ -46,7 +46,13 @@ var swiper4 = new Swiper(".mySwiper4", {
 });
 
 
-;
+$('.tablets-menu').hide();
+$( "#menu-button" ).click(function() {
+  $('.tablets-menu').show();
+});
+$( "#exit-button" ).click(function() {
+  $('.tablets-menu').hide();
+});;
 
 // function initMap() {
 //   const contentString = '<div class="map-addressinfo"><div class="map-addressinfo__firstaddress"><div class="map-addressinfo__firstaddress-wrap"><img src="img/marker.png" alt="" class="map-marker" /><div class="map-addressinfo__firstaddress-text"><strong class="map-addressinfo__firstaddress-text__title">Адрес офиса</strong><br />г. Уфа, Проспект октября, 46 <br /><p class="map-addressinfo__firstaddress-text2"><strong class="map-addressinfo__firstaddress-text__title">Адрес офиса</strong><br />г. Уфа, Проспект октября, 46</p></div></div></div><div class="map-addressinfo__secondaddress map-addressinfo__firstaddress"><div class="map-addressinfo__secondaddress-wrap map-addressinfo__firstaddress-wrap"><img src="img/phone.png" alt="" class="map-phone map-marker" /><div class="map-addressinfo__secondaddress-text map-addressinfo__firstaddress-text"><strong class="map-addressinfo__secondaddress__title map-addressinfo__firstaddress-text__title">Тел. отдела продаж:</strong><br />8 (347) 271-54-28 <br />8 (937) 363-30-00</div></div><a href="#"><button class="map-addressinfo__secondaddress-btn">Заказать звонок</button></a></div><div class="map-addressinfo__thirdaddress map-addressinfo__firstaddress"><div class="map-addressinfo__thirdaddress-wrap map-addressinfo__firstaddress-wrap"><img src="img/mail.png" alt="" class="map-marker" /><div class="map-addressinfo__thirdaddress-text map-addressinfo__firstaddress-text"><strong class="map-addressinfo__thirdaddress__title map-addressinfo__firstaddress-text__title">Е-mail</strong><br /><p class="map-addressinfo__thirdaddress__subtitle">urals.karton@gmail.com</p></div></div></div></div>';
