@@ -346,7 +346,7 @@ body {
 
 #exit-btn {
   position: relative;
-  left: 100%;
+  left: 95%;
   top: -15px;
 }
 
@@ -1293,6 +1293,35 @@ body {
     font-size: 13px;
   }
 
+  .modals-aktiv {
+    width: 693px;
+  }
+
+  .modals-header {
+    font-size: 18px;
+    padding-bottom: 23px;
+  }
+
+  .modals-body__title {
+    font-size: 26px;
+  }
+
+  .modals-body__subtitle {
+    font-size: 21px;
+  }
+
+  .modals-body__phone {
+    font-size: 18px;
+  }
+
+  .modals-body__forms-form {
+    padding: 6px 92px 6px 14px;
+  }
+
+  .modals-body__forms-btn {
+    padding: 16px 29px;
+  }
+
   .info-cardswrap__item {
     padding-left: 2px;
     padding-right: 0;
@@ -1596,6 +1625,60 @@ body {
     margin: 0;
   }
 
+  #exit-btn {
+    position: absolute;
+    top: 11px;
+    left: 96%;
+  }
+
+  .modals-aktiv {
+    width: 100%;
+  }
+
+  .modals-header {
+    font-size: 16px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+
+  .modals-body {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .modals-body__title {
+    font-size: 24px;
+  }
+
+  .modals-body__subtitle {
+    font-size: 19px;
+    margin-bottom: 15px;
+  }
+
+  .modals-body__phone {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  .modals-body__forms {
+    margin-bottom: 5px;
+  }
+
+  .modals-body__forms-form {
+    font-size: 13px;
+    margin-right: 10px;
+    padding: 5px 40px 5px 40px;
+  }
+
+  .modals-body__forms-btn {
+    font-size: 13px;
+    padding: 15px 28px;
+  }
+
+  .modals-body__minoffer {
+    font-size: 12px;
+  }
+
   .info {
     padding-top: 24px;
     padding-bottom: 40px;
@@ -1813,6 +1896,25 @@ body {
 
   .production-form__input {
     width: 100%;
+  }
+
+  #exit-btn {
+    left: 94%;
+  }
+
+  .modals-body__forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .modals-body__forms-form {
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 
   .mySwiper2 {
