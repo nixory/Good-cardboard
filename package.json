@@ -24,7 +24,11 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.0.0",
     "gulp-uglify-es": "^3.0.0",
+    "hint": "^7.1.1",
     "jshint": "^2.13.4",
     "sass": "^1.43.5"
-  }
+  },
+  "scripts": {
+    "webhint": "hint"
+}
 }

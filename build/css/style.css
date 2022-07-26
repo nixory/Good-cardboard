@@ -277,6 +277,7 @@ body {
   background-color: #ff9d00;
   color: #fff;
   font-size: 14px;
+  display: inline-block;
   font-weight: 500;
   font-style: normal;
   letter-spacing: normal;
@@ -363,6 +364,7 @@ body {
   font-weight: 400;
   line-height: 22px;
   color: #ffff;
+  display: inline-block;
   background-color: #ff9d00;
   padding: 17px 19px;
   border-radius: 5px;
@@ -391,7 +393,7 @@ body {
 
 #exit-btn {
   position: relative;
-  left: 95%;
+  left: 100%;
   top: -15px;
 }
 
@@ -496,6 +498,7 @@ body {
   font-family: Roboto;
   font-size: 15px;
   font-weight: 500;
+  display: inline-block;
   font-style: normal;
   letter-spacing: normal;
   line-height: 22px;
@@ -658,6 +661,7 @@ body {
   font-weight: 400;
   line-height: 23.47px;
   margin-left: 12px;
+  display: inline-block;
 }
 
 .products-item__btn-o {
@@ -665,6 +669,7 @@ body {
   opacity: 1;
   color: #ffff;
   border-color: #ff9d00;
+  display: inline-block;
 }
 
 .offer {
@@ -734,6 +739,7 @@ body {
 .offer-btn {
   padding: 17px 29px;
   font-weight: 500;
+  display: inline-block;
 }
 
 .offer-minoffer {
@@ -1218,6 +1224,7 @@ body {
   font-style: normal;
   letter-spacing: normal;
   line-height: 22px;
+  display: inline-block;
 }
 
 #map2 {
@@ -1398,9 +1405,8 @@ body {
   }
 
   .products-wrap {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 
   .products-item__btn {
@@ -1425,7 +1431,7 @@ body {
   }
 
   .offer-btn {
-    padding: 14px 31px;
+    padding: 14px 25px;
     font-size: 14px;
   }
 
@@ -1662,8 +1668,9 @@ body {
   }
 
   .production-form__btn {
-    padding: 19px 29px;
+    margin: 0 auto;
     margin-bottom: 16px;
+    width: 167px;
   }
 
   .production-form__note {
@@ -1828,7 +1835,7 @@ body {
   }
 
   .offer-btn {
-    padding: 15px 32px;
+    padding: 15px 25px;
     margin: 0;
   }
 
