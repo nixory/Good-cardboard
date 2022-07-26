@@ -1479,9 +1479,46 @@ body {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .info-cardswrap__item {
+    height: 132px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+    padding-left: 13px;
+    padding-top: 27px;
+    padding-bottom: 29px;
+    margin-bottom: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 19px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .info-cardswrap__item {
+    padding-left: 2px;
+    padding-right: 0;
+  }
+
+  .info-item__text-title {
+    font-size: 14px;
+  }
+
+  .info-item__text-subtitle {
+    font-size: 12px;
+  }
+
+  .info-cardswrap__item-img {
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .container {
-    max-width: 720px;
+    max-width: 719px;
   }
 
   .header {
