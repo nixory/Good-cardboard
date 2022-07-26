@@ -168,6 +168,10 @@ body {
   top: 10px;
 }
 
+.tablets {
+  display: none;
+}
+
 .tablets-menu {
   position: fixed;
   z-index: 120;
