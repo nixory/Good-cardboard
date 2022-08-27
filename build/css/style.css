@@ -260,9 +260,17 @@ body {
   color: #373737;
 }
 
+.infonav-wrp__num:hover {
+  color: #525252;
+}
+
 .infonav-wrp__num2 {
   padding-left: 13px;
   color: #373737;
+}
+
+.infonav-wrp__num2:hover {
+  color: #525252;
 }
 
 .infonav-wrp-r {
@@ -286,6 +294,12 @@ body {
   padding: 12px 27px 12px 21px;
   border-radius: 10px;
   margin-right: -17px;
+}
+
+.infonav-wrp__btn:hover {
+  -webkit-filter: brightness(95%);
+          filter: brightness(95%);
+  color: #fff;
 }
 
 .wrapper {
@@ -370,6 +384,12 @@ body {
   padding: 17px 19px;
   border-radius: 5px;
   border: none;
+}
+
+.production-form__btn:hover {
+  -webkit-filter: brightness(95%);
+          filter: brightness(95%);
+  color: #fff;
 }
 
 .production-form__note {
@@ -665,12 +685,24 @@ body {
   display: inline-block;
 }
 
+.products-item__btn:hover {
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
+  color: #373737;
+}
+
 .products-item__btn-o {
   background-color: #ff9d00;
   opacity: 1;
   color: #ffff;
   border-color: #ff9d00;
   display: inline-block;
+}
+
+.products-item__btn-o:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+  color: #ffff;
 }
 
 .offer {
@@ -1156,6 +1188,12 @@ body {
   margin-left: 26px;
   margin-top: 14px;
   margin-bottom: 25px;
+}
+
+.map-addressinfo__secondaddress-btn:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+  color: #ffff;
 }
 
 .map-addressinfo__thirdaddress__subtitle {
