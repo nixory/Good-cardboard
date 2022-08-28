@@ -307,7 +307,7 @@ body {
 }
 
 .production {
-  background-image: url("../img/bgc1.png");
+  background-image: url("../img/bgc1.webp");
   padding-top: 65px;
   padding-bottom: 75px;
   background-repeat: no-repeat;
@@ -707,7 +707,7 @@ body {
 
 .offer {
   text-align: center;
-  background-image: url("../img/bgcoffer.png");
+  background-image: url("../img/bgcoffer.webp");
   padding-top: 60px;
   padding-bottom: 61px;
   background-repeat: no-repeat;
@@ -1076,7 +1076,7 @@ body {
 
 .rswiper-button-next {
   top: 44%;
-  background-image: url("../img/nextarrow.png");
+  background-image: url("../img/nextarrow.webp");
   border: none;
   background-color: transparent;
   height: 47px;
@@ -1094,7 +1094,7 @@ body {
 
 .rswiper-button-prev {
   top: 44%;
-  background-image: url("../img/prevarrow.png");
+  background-image: url("../img/prevarrow.webp");
   border: none;
   background-color: transparent;
   height: 47px;
